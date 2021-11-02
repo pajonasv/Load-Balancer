@@ -1,0 +1,6 @@
+1. Have Python 3.0 set up on your machine.
+2. Open 4 command line windows and navigate to the project folder with all of them.
+3. On windows, run "python -m http.server 8001" for one and "python -m http.server 8002" for the next, and so on until 8004.
+4. Run the newloadbalancer.py file.  You can run on a custom ip and port, but the servers must be the same ip and port+1, port+2, port+3, port+4.
+5. Open your browser and go to URL "localhost:8000." it should bring you to a directory where you see all the files in the folder. You can then click on the html files to see those webpages.
+6. A log file is generated that stores all message exchanges
